@@ -116,21 +116,21 @@ function handleClick(value){
                               <div className='mt-8 flex flex-col sm:flex-row justify-between'>
                                 <div className='flex flex-col justify-between h-1/2 mb-4'>
                                   <div className='flex justify-between w-36 items-center'>
-                                      <img src="../public/images/location.png" alt="" className='h-5'/>
+                                      <img src="/images/location.png" alt="" className='h-5'/>
                                       <p>{location}</p>
                                   </div>
                                   <div className='flex w-54 items-center mt-2'>
-                                      <img src="../public/images/link.png" alt="" className='h-5'/>
+                                      <img src="/images/link.png" alt="" className='h-5'/>
                                       <p className='w-4/5 ml-2'>{github}</p>
                                   </div>
                                 </div>
                                 <div>
                                 <div className='flex justify-between w-36 items-center'>
-                                      <img src="../public/images/twitter.png" alt="" className='h-5'/>
+                                      <img src="/images/twitter.png" alt="" className='h-5'/>
                                       <p>{(twitter) ? twitter : "Not available" }</p>
                                   </div>
                                   <div className='flex w-48 items-center mt-2'>
-                                      <img src="../public/images/office.png" alt="" className='h-5'/>
+                                      <img src="/images/office.png" alt="" className='h-5'/>
                                       <p className='ml-4'>{(company) ? company : "Not available"}</p>
                                   </div>
                                 </div>
