@@ -54,7 +54,8 @@ function handleClick(value){
 
   return (
     <>
-      <div className={`h-full w-full p-16 bg-${darkmode ? "thick" : "back"}`}>
+{/*      ${darkmode ? "thick" : "back"} */}
+      <div className={`h-full w-full p-16 bg-thick`}>
           <div className={`font-mono sm:w-3/5 sm:m-24 sm:ml-64`}>
             <div className={`flex flex-row justify-between text-${darkmode ? "back" : "black"} transition-all mb-8`}>
                 <p>devfinder</p>
