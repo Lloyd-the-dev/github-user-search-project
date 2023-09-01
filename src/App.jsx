@@ -74,7 +74,7 @@ function handleClick(value){
                       let item = event.target.value
                       setSearchItem(item.toLowerCase())
                   }}  
-                  className={`transition-all sm:w-96 h-8 ml-8 bg-${darkmode ? "darkoo" : "back"} text-${darkmode ? "back" : "black"}`}/>
+                  className={`transition-all sm:w-96 h-8 ml-8 bg-darkoo text-${darkmode ? "back" : "black"}`}/>
       
                 </div>
                 <button className='p-2 rounded-md text-back w-24 bg-sky-500' onClick={
