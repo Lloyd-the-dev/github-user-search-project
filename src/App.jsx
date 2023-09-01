@@ -59,10 +59,6 @@ function handleClick(value){
           <div className={`font-mono sm:w-3/5 sm:m-24 sm:ml-64`}>
             <div className={`flex flex-row justify-between text-${darkmode ? "back" : "black"} transition-all mb-8`}>
                 <p>devfinder</p>
-                <button className='flex justify-between' onClick={() => setDarkmode(!darkmode)}>
-                  <p>{darkmode ? "Light" : "Dark"}</p>
-                  <img src={`/images/${darkmode ? "sun" : "moon"}.png`} alt="" className='ml-4' />
-                </button>
             </div>
 
             {/* Search section */}
