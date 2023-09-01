@@ -13,7 +13,7 @@ const [searchItem, setSearchItem] = useState("");
 const[name, setName] = useState("Octo")
 const[username, setUsername] = useState("octocat")
 const[dateJoined, setDateJoined] = useState("25 Jan 2011")
-const[avatar, setAvatar] = useState("../public/images/cat.jpg")
+const[avatar, setAvatar] = useState("/images/cat.jpg")
 const[bio, setBio] = useState("Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit odio in voluptas architecto dicta accusantium!")
 const[repos, setRepos] = useState(8)
 const[followers, setFollowers] = useState(3938)
@@ -60,14 +60,14 @@ function handleClick(value){
                 <p>devfinder</p>
                 <button className='flex justify-between' onClick={() => setDarkmode(!darkmode)}>
                   <p>{darkmode ? "Light" : "Dark"}</p>
-                  <img src={`../public/images/${darkmode ? "sun" : "moon"}.png`} alt="" className='ml-4' />
+                  <img src={`/images/${darkmode ? "sun" : "moon"}.png`} alt="" className='ml-4' />
                 </button>
             </div>
 
             {/* Search section */}
             <div className={`bg-${darkmode ? "darkoo" : "back"} transition-all flex justify-between items-center p-2 rounded-md shadow-md`}>
                 <div className='flex items-center justify-between ml-8'>
-                  <img src="../public/images/search.png" alt="" />
+                  <img src="/images/search.png" alt="" />
                   <input type="text" 
                   onChange={(event) => {
                       let item = event.target.value
